@@ -195,7 +195,6 @@
 		137B2F1021BF8983006C58C2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				137B2F1221BF89B2006C58C2 /* Common */,
 				137B2F1121BF89A3006C58C2 /* App_Specific */,
 			);
 			path = Controllers;
@@ -204,42 +203,9 @@
 		137B2F1121BF89A3006C58C2 /* App_Specific */ = {
 			isa = PBXGroup;
 			children = (
-				137B2F1821BF89EE006C58C2 /* Cash Fantasy */,
-				137B2F1721BF89E6006C58C2 /* CricSet */,
 				137B2F1621BF89DF006C58C2 /* FSL */,
-				137B2F1521BF89D4006C58C2 /* Playing11 */,
-				137B2F1421BF89CA006C58C2 /* Real_Bash */,
-				137B2F1321BF89BD006C58C2 /* Real11 */,
 			);
 			path = App_Specific;
-			sourceTree = "<group>";
-		};
-		137B2F1221BF89B2006C58C2 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		137B2F1321BF89BD006C58C2 /* Real11 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Real11;
-			sourceTree = "<group>";
-		};
-		137B2F1421BF89CA006C58C2 /* Real_Bash */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Real_Bash;
-			sourceTree = "<group>";
-		};
-		137B2F1521BF89D4006C58C2 /* Playing11 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Playing11;
 			sourceTree = "<group>";
 		};
 		137B2F1621BF89DF006C58C2 /* FSL */ = {
@@ -248,20 +214,6 @@
 				137B2F2721BF94D8006C58C2 /* LoginVC.swift */,
 			);
 			path = FSL;
-			sourceTree = "<group>";
-		};
-		137B2F1721BF89E6006C58C2 /* CricSet */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CricSet;
-			sourceTree = "<group>";
-		};
-		137B2F1821BF89EE006C58C2 /* Cash Fantasy */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Cash Fantasy";
 			sourceTree = "<group>";
 		};
 		137B2F1921BF8A2A006C58C2 /* Database */ = {
