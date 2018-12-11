@@ -11,8 +11,8 @@ import UIKit
 
 
 #if Real11
-let kThemeColor1        = UIColor(red:1.00, green:0.37, blue:0.00, alpha:1.0)
-let kThemeColor2        = UIColor(red:0.43, green:0.76, blue:0.78, alpha:1.0)
+let kThemeColor1        = UIColor(red:0.12, green:0.22, blue:0.38, alpha:1.0)
+let kThemeColor2        = UIColor(red:0.12, green:0.59, blue:0.81, alpha:1.0)
 #elseif RealBash
 let kThemeColor1        = UIColor(red:1.00, green:0.37, blue:0.00, alpha:1.0)
 let kThemeColor2        = UIColor(red:0.43, green:0.76, blue:0.78, alpha:1.0)
@@ -26,8 +26,8 @@ let kThemeColor2        = UIColor(red:0.43, green:0.76, blue:0.78, alpha:1.0)
 let kThemeColor1        = UIColor(red:1.00, green:0.37, blue:0.00, alpha:1.0)
 let kThemeColor2        = UIColor(red:0.43, green:0.76, blue:0.78, alpha:1.0)
 #elseif Playing11
-let kThemeColor1        = UIColor(red:1.00, green:0.37, blue:0.00, alpha:1.0)
-let kThemeColor2        = UIColor(red:0.43, green:0.76, blue:0.78, alpha:1.0)
+let kThemeColor1        = UIColor(red:0.97, green:0.00, blue:0.09, alpha:1.0)
+let kThemeColor2        = UIColor(red:0.15, green:0.45, blue:0.01, alpha:1.0)
 #endif
 
 

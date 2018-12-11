@@ -86,6 +86,8 @@
 		137C1C6F21BE96EE0067D462 /* P11_LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137C1C6E21BE96EE0067D462 /* P11_LaunchScreen.storyboard */; };
 		137C1C7021BE96FD0067D462 /* CS_LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137C1C6A21BE96BC0067D462 /* CS_LaunchScreen.storyboard */; };
 		137C1C7121BE97010067D462 /* CF_LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137C1C6821BE96AB0067D462 /* CF_LaunchScreen.storyboard */; };
+		B2A2A07521BFC6D300476B98 /* LandingVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A2A07421BFC6D300476B98 /* LandingVc.swift */; };
+		B2A2A07821BFCB0300476B98 /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A2A07721BFCB0300476B98 /* LoginVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -131,6 +133,8 @@
 		137C1C6821BE96AB0067D462 /* CF_LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CF_LaunchScreen.storyboard; sourceTree = "<group>"; };
 		137C1C6A21BE96BC0067D462 /* CS_LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CS_LaunchScreen.storyboard; sourceTree = "<group>"; };
 		137C1C6E21BE96EE0067D462 /* P11_LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = P11_LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2A2A07421BFC6D300476B98 /* LandingVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingVc.swift; sourceTree = "<group>"; };
+		B2A2A07721BFCB0300476B98 /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +207,7 @@
 		137B2F1121BF89A3006C58C2 /* App_Specific */ = {
 			isa = PBXGroup;
 			children = (
+				B2A2A07221BFC61C00476B98 /* Playing11 */,
 				137B2F1621BF89DF006C58C2 /* FSL */,
 			);
 			path = App_Specific;
@@ -336,6 +341,31 @@
 				137C1C6E21BE96EE0067D462 /* P11_LaunchScreen.storyboard */,
 			);
 			path = Launch;
+			sourceTree = "<group>";
+		};
+		B2A2A07221BFC61C00476B98 /* Playing11 */ = {
+			isa = PBXGroup;
+			children = (
+				B2A2A07621BFCAED00476B98 /* Login */,
+				B2A2A07321BFC6AA00476B98 /* LandingScreen */,
+			);
+			path = Playing11;
+			sourceTree = "<group>";
+		};
+		B2A2A07321BFC6AA00476B98 /* LandingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B2A2A07421BFC6D300476B98 /* LandingVc.swift */,
+			);
+			path = LandingScreen;
+			sourceTree = "<group>";
+		};
+		B2A2A07621BFCAED00476B98 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B2A2A07721BFCB0300476B98 /* LoginVc.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -639,10 +669,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A2A07521BFC6D300476B98 /* LandingVc.swift in Sources */,
 				137C1C5521BE874C0067D462 /* LanguageDetails.swift in Sources */,
 				137C1C4A21BE86760067D462 /* HelperClass.swift in Sources */,
 				137C1C1221BE3B980067D462 /* Fantasy_Sports.xcdatamodeld in Sources */,
 				137C1C3721BE6D7A0067D462 /* ClassExtensions.swift in Sources */,
+				B2A2A07821BFCB0300476B98 /* LoginVc.swift in Sources */,
 				137C1C4121BE865D0067D462 /* StringConstants.swift in Sources */,
 				137C1C5B21BE874C0067D462 /* Localizable.swift in Sources */,
 				137C1C1321BE3B980067D462 /* AppDelegate.swift in Sources */,
